@@ -2,6 +2,13 @@
 
 namespace App\Http\Controllers;
 
+/**
+ * ProjectController - Mengelola Lelang Proyek IT
+ * Mahasiswa : Marsha Hafiz Devara
+ * NIM       : 252410102057
+ * Keamanan  : Eloquent ORM (Anti-SQLi) & Blade Output Encoding (Anti-Stored XSS)
+ */
+
 use App\Models\Project;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
